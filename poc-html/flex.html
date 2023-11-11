@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: flex;
+            flex-direction: row;
+            direction:rtl;
+            border: 5px solid #000;
+            width: 200px;
+            flex-wrap: wrap;
+
+        }
+
+        .item {
+            border: 1px solid;
+            opacity: .9;
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+
+        .item:first-child {
+            background: yellow;
+        }
+
+        .item:last-child {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="parent">
+        <div class="item">
+            1
+        </div>
+        <div class="item">
+            2
+        </div>
+        <div class="item">
+            3
+        </div>
+    </section>
+</body>
+</html>

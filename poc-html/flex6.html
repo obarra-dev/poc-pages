@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: flex;
+            flex-flow: row wrap;
+            border: 5px solid #000;
+            width: 250px;
+            height: 500px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            align-content: flex-end;
+            gap: 16px;
+        }
+
+        .item {
+            border: 1px solid;
+            box-sizing: border-box;
+            opacity: .9;
+            width: 50px;
+            height: 50px;
+            display: flex;
+        }
+
+        .item:first-child {
+            background: yellow;
+            height: 25px;
+        }
+
+        .item:nth-child(2),
+        .item:nth-child(5) {
+            background: green;
+            height: 30px;
+            align-self: flex-start;
+        }
+        .item:last-child {
+            background: red;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="parent">
+        <div class="item">
+            PRIMERO
+        </div>
+        <div class="item">
+            2
+        </div>
+        <div class="item">
+            3
+        </div>
+
+        <div class="item">
+            PRIMERO
+        </div>
+        <div class="item">
+            5
+        </div>
+        <div class="item">
+            6
+        </div>
+    </section>
+</body>
+</html>
