@@ -395,3 +395,12 @@ body {
 .questions__img{
     display: block;
 }
+
+
+.questions__copy {
+    width: 60%;
+    margin: 0 auto;
+
+    /*si se pone antes del width no lo toma xq?*/
+    margin-bottom: 30px;
+}
