@@ -329,7 +329,6 @@ body {
 
 .questions {
     text-align: center;
-    background-color: gold;
 }
 
 .questions__container{
@@ -347,6 +346,7 @@ body {
 
 }
 
+/*para animacion*/
 .questions__padding--add{
     padding-bottom: 30px;
 }
@@ -380,6 +380,7 @@ body {
     transition:  transform .3s;
 }
 
+/*para animacion*/
 .questions__arrow--rotate{
     transform: rotate(180deg);
 }
