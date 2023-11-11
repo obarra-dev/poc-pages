@@ -1,0 +1,109 @@
+body {
+    background-color: #010213;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgba(197, 206, 250, 0.5);
+}
+
+.btnPrimary {
+    color: #fff;
+    background: linear-gradient(90deg, #6836C9, #eed4f4 109.68%);
+    border-radius: 20px;
+    height: 40px;
+    /*no entedoo*/
+    padding: 0 4px 0px 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btnIcon {
+    background-color: rgba(255, 255, 255, .2);
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btnIcon  > img {
+    width: 15px;
+    height: 15px;
+}
+
+.btnGhost {
+    color: #c3c2d8;
+    background-color: transparent;
+    height: 40px;
+    padding: 0 24px;
+    border: none;
+}
+
+.btnOutline {
+    color: #c3c2d8;
+    background-color: transparent;
+    height: 40px;
+    padding: 0 24px;
+    border: 1px solid #c3c2d8;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.title {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700px;
+    margin-bottom: 32px;
+}
+
+.slogan {
+    font-size: 24px;
+    color: #c3c2d8;
+    margin: 0px;
+}
+
+.subscribers {
+    margin: 40px auto 64px;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribers span {
+    margin: 0px 12px 0 32px ;
+}
+
+.avatarBox {
+    display: flex;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #010213;
+    background-color: white;
+    margin-left: -8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.video {
+    box-shadow: 0px 9px 85px 30px #271433;
+}
